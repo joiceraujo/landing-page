@@ -1,38 +1,30 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #1f1c0d;
-    
-}
-
 body {
+    margin: 0%;
     background-color: #FEE9FC;
-    margin: 0;
+    padding: auto;
 }
 
 #header {
+    margin-top: 0%;
     width: 100%;
-    height: 180px;
+    height: 150px;
     background-color: darksalmon;
-    position: absolute;
-    left: 0.2px;
-    top: 0.2px;
+    display: flex; 
+   
+}
+
+.header-title {
+    margin-top: 30px;
+    margin-left: 200px;
 }
 
 .header-menu {
-    display: inline-block;
-    margin-left: 500px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-h3 {
-    display: inline-block;
-    margin-left: 150px;
-    font-size: 20px;
+    margin-left: 800px;
+    margin-top: 10px; 
 }
 
 .about-section { 
-    margin-top: 300px;
+    margin-top: 100px;
     margin-left: 200px;
     margin-right: 300px;
     text-align: center;
@@ -108,17 +100,15 @@ a {
 }
 
 #footer {
-    width: 100%;
-    margin-top: 1100px;
-    height: 100px;
     background-color: darksalmon;
-    position: relative;
-   padding: 0%;
+    padding: 40px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
 } 
 
 #paragrafo-footer {
-    margin-bottom: 0%;
-    margin-top: 100px;
+    position: fixed;
     text-align: center;
-    padding: 40px;
 }   
